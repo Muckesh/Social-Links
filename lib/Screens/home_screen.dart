@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(90),
                     // color: Colors.lightBlueAccent,
                     image: DecorationImage(
-                      image: AssetImage("assets/images/profile.jpg"),
+                      image: AssetImage("Your Profile Image"),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -64,7 +64,7 @@ class HomeScreen extends StatelessWidget {
                         width: width,
                         icon: "assets/images/instagram.png",
                         social: "Instagram",
-                        url: 'https://www.instagram.com/muckeshks/',
+                        url: 'Instagram Url',
                       ),
                       SizedBox(height: 30),
                       LinksContainer(
@@ -72,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                         width: width,
                         icon: "assets/images/github.png",
                         social: "GitHub",
-                        url: 'https://github.com/Muckesh/',
+                        url: 'Github Url',
                       ),
                       SizedBox(height: 30),
                       LinksContainer(
@@ -81,7 +81,7 @@ class HomeScreen extends StatelessWidget {
                         icon: "assets/images/snapchat.png",
                         social: "Snapchat",
                         url:
-                            'https://www.snapchat.com/add/muckesh_007?share_id=GOgNdwBbaqE&locale=en-US',
+                            'Snapchat Url',
                       ),
                       SizedBox(height: 30),
                       LinksContainer(
@@ -89,7 +89,7 @@ class HomeScreen extends StatelessWidget {
                         width: width,
                         icon: "assets/images/youtube.jpg",
                         social: "YouTube",
-                        url: 'https://www.youtube.com/',
+                        url: 'YouTube Channel Url',
                       ),
                       SizedBox(height: 30),
                     ],
